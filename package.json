@@ -1,0 +1,11 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.14.0",
+    "webpack-init": "^0.1.2"
+  }
+}
