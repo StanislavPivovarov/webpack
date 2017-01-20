@@ -8,7 +8,7 @@ const routes = [
     { path: '/bar', component: Bar }
 ];
 
-const router = new VueRouter({routes});
+// const router = new VueRouter({routes});
 
 new Vue({
   router,
