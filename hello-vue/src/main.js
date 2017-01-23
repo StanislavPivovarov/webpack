@@ -1,16 +1,11 @@
 import Vue from 'vue'
-import App from './App.vue'
-import Bar from './Bar.vue'
+
 import VueRouter from 'vue-router'
+import routes from './components/routes'
 
-const routes = [
-    { path: '/', component: App },
-    { path: '/bar', component: Bar }
-];
-
-// const router = new VueRouter({routes});
+const routerInstance = new VueRouter(routes);
+Vue.use(VueRouter);
 
 new Vue({
-  // router,
-  render: h => h(App)
+    router: routerInstance,
 }).$mount('#app');

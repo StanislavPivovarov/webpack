@@ -1,8 +1,6 @@
 <template>
     <div>
-        <header-component/>
-        <div>this is template body</div>
-        <other-component/>
+        <div style="color:#FFF">this is template body</div>
     </div>
 </template>
 <script>
